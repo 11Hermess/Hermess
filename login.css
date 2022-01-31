@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 20px;
+}
+
+
+.form {
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 25px 20px 50px 20px;
+}
+
+
+.form__username,
+.form__pswd {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__pswd {
+    margin-top: 15px;
+}
+
+.form__usernamelabel,
+.form__pswdlabel {
+    font-size: 15px;
+    font-family: "Roboto" , sans-serif;
+    padding-bottom: 5px;
+    letter-spacing: 0,3px;
+    color: #515050;
+}
+
+.form__usernameinput,
+.form__pswdinput {
+    width: 100%;
+    height: 30px;
+    background-color: #f1f1f1;
+    border: 2px solid #d1d1d1;
+    padding: 10px;
+}
+
+.form__login {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form__rememberlabel,
+.form__loginbutton {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.3px;
+}
+
+.form__rememberlabel {
+    color: #515050;
+}
+
+.form__remembercbox 
+
+
+.form__loginbutton {
+    border: 2px solid #3091b2;
+    border-radius: 3px;
+    padding: 5px 10px;
+    background-color: #2ea2cc;
+    color: #e5e3e3;
+}
+
+.form__loginbutton:hover {
+    cursor: pointer;
+}
